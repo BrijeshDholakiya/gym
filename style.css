@@ -56,6 +56,7 @@ a{
 .quote-text p{
     padding-bottom: 20px;
     margin-bottom: 50px;
+    color: #eb699e;
 }
 
 .readmoreClass{
@@ -95,6 +96,15 @@ a{
     padding: 50px 0;
     box-shadow: #ddd 10px 0px 10px 0px;
 }
+.feature-image:hover{
+    background-color: rgb(199, 196, 193);
+    transition: all 0.75s ease-in-out;
+    /* color: #fff; */
+}
+
+/* .feature-image image{
+    color: #fff;
+} */
 
 .feature-image h3{
     font-size: 1.6rem;
@@ -220,9 +230,6 @@ a{
 .response-content h3{
     font-size: 2rem;
 }
-
-
-
                                                     
                                                   /* F I N A L  S E C T I O N  */
 
@@ -251,11 +258,14 @@ input[type="emails"] {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 600;
+    outline: none;
+    border: none;
     border-radius: 30px;
 }
 
 input[type="submit"] {
     margin-left: -210px;
+    
     height: 44px;
     width: 200px;
     background-color: tomato;
@@ -275,6 +285,10 @@ hr{
 
 .copyright a, p{
     color: rgb(151, 135, 135);
+}
+.copyright a{
+    margin-left: -0.01px;
+    padding-left: 5px;
 }
 
 /*////////////////////////////////////////////// MEDIA Query Section ////////////////////////////////////////*/
