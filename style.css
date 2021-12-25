@@ -1,117 +1,123 @@
-body{
+body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     font-size: 3.5rem;
     font-weight: bold;
 }
 
-p{
+p {
     font-size: 1.2rem;
     line-height: 1.7rem;
 }
 
-span{
+span {
     font-size: 1.3rem;
     font-family: "Raleway", sans-serif;
 }
 
-a{
+a {
     font-size: 1.2rem;
     margin: 10px 20px;
     color: black;
 }
 
-#design-link:hover{
+#design-link:hover {
     color: #eb699e;
 }
+
 
 /*//////////////////////////////////////////////   H O M E  S E C T I O N  /////////////////////////////////*/
 
 .maincontainer {
-    background-image: url(Images/banner.jpg);
     padding-bottom: 70px;
+    background-image: url(Images/banner.jpg);
 }
 
-.titlename{
+.titlename {
     color: #eb699e !important;
     font-size: 3rem;
     margin-left: 10px;
-} 
+}
 
-.quote-text{
+.quote-text {
     text-align: left;
     width: 60%;
-    margin: 140px 0 0 50px ;
+    margin: 140px 0 0 50px;
     line-height: 1.5rem;
 }
 
-.quote-text h1{
+.quote-text h1 {
     font-weight: bolder;
     color: #fff;
 }
 
-.quote-text p{
+.quote-text p {
     padding-bottom: 20px;
     margin-bottom: 50px;
     color: #eb699e;
 }
 
-.readmoreClass{
+.readmoreClass {
     border: 1px solid #eb699e;
     color: #eb699e;
     font-size: 1.2rem;
-    font-family: 'Raleway', sans-serif; 
+    font-family: 'Raleway', sans-serif;
     padding: 18px 40px;
 }
 
-#readmore:hover{
+#readmore:hover {
     background-color: #fff;
     color: #eb699e;
     transition: all 1000ms ease;
-} 
+}
+
 
 /*////////////////////////////////  P R I C I N G  AND T R A I N I N G  S E C T I O N //////////////////////////////*/
 
-.feature-container{
+.feature-container {
     margin: 100px 0 100px;
     padding: 0 5%;
 }
 
-
-.feature-title h1{
+.feature-title h1 {
     color: rgb(14, 10, 10);
 }
 
-.feature-title span{
+.feature-title span {
     color: #d41c66;
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
+    ;
 }
 
-.feature-image{
-    border-radius: 20px; 
+.feature-image {
+    border-radius: 20px;
     margin: 50px 0 70px;
     padding: 50px 0;
     box-shadow: #ddd 10px 0px 10px 0px;
 }
-.feature-image:hover{
+
+.feature-image:hover {
     background-color: rgb(199, 196, 193);
     transition: all 0.75s ease-in-out;
     /* color: #fff; */
 }
 
+
 /* .feature-image image{
     color: #fff;
 } */
 
-.feature-image h3{
+.feature-image h3 {
     font-size: 1.6rem;
     font-weight: 600;
 }
 
-#readmore-feature:hover{
+#readmore-feature:hover {
     background-color: black;
     color: #fff;
     transition: all 1000ms ease;
@@ -120,37 +126,37 @@ a{
 
 /*//////////////////////////////////////// O F F E R  S E C T I O N //////////////////////////////////////////////*/
 
-
-#offer-container{
+#offer-container {
     background-image: url(Images/disco.jpg);
     text-align: center;
     align-items: center;
     padding-bottom: 100px;
-    }
+}
 
-#readmore-offer:hover{
+#readmore-offer:hover {
     background-color: #fff;
     color: #eb699e;
     transition: all 2000ms ease;
 }
 
-.offer-title{
+.offer-title {
     margin-bottom: 80px;
     padding: 200px 100px 0;
     color: white;
 }
 
-/*////////////////////////////////// R E G I S T R A T I O N  S E C T I O N  //////////////////////////////////////*/         
 
-.registration-section{
+/*////////////////////////////////// R E G I S T R A T I O N  S E C T I O N  //////////////////////////////////////*/
+
+.registration-section {
     margin: 100px auto 100px;
 }
 
-.formAndImg{
+.formAndImg {
     margin: 80px 0 0;
 }
 
-.registration-form{
+.registration-form {
     margin: 20px 0 0 40px;
     max-width: 30%;
     padding: 40px 0;
@@ -158,33 +164,36 @@ a{
     background-color: #eb699e;
 }
 
-.registration-form ::placeholder{
+.registration-form ::placeholder {
     color: #fff;
+    /* padding: 10px 0 !important; */
 }
 
-.reg-details{
+.reg-details {
     border: 1px solid #f6c2d7;
+    outline: none;
     border-radius: 25px;
     margin-bottom: 25px;
     max-width: 80%;
     width: 100%;
     background: none;
-    color: #f5bed2;
-    font-size: 20px;
+    color: #FEF2BF;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
-    font-weight: 200;
+    font-weight: 600;
     padding: 3px 0 3px 20px;
 }
 
-.registration-form textarea{
+.registration-form textarea {
     padding-top: 35px;
 }
 
-.registration-form button{ 
+.registration-form button {
     border: 1px solid #f6c2d7;
     font-size: 1.2rem;
     background-color: #f1ad7c;
     color: #fff;
+    cursor: pointer;
     padding: 13px 0px;
     max-width: 150px;
     width: 100%;
@@ -193,54 +202,57 @@ a{
     border-radius: 35px;
 }
 
-#sendBtn > button:hover{
+#sendBtn>button:hover {
     background-color: rgb(246, 248, 248);
     color: #eb699e;
 }
 
-.reg-image{
+.reg-image {
     margin: 4% 0 0 3%;
     padding-top: 70px;
 }
 
+
 /*////////////////////////////////////// R E S P O N S E  S E C T I O N   ///////////////////////////////////////*/
 
-#response-caraousel{
+#response-caraousel {
     background-image: url(Images/cli.jpg);
     width: 100%;
     padding: 7% 0 10%;
 }
 
-.response-title{
+.response-title {
     color: #fff;
     padding-bottom: 3%;
 }
 
-.response-title h2{
+.response-title h2 {
     font-size: 3rem;
 }
 
-.response-content{
+.response-content {
     width: 50%;
     margin: 0 auto;
     padding: 15px 20px 70px;
     background-color: #fff;
     color: #3c3c3d;
 }
-.response-content h3{
+
+.response-content h3 {
     font-size: 2rem;
 }
-                                                    
-                                                  /* F I N A L  S E C T I O N  */
 
- #final-container{
+
+/* F I N A L  S E C T I O N  */
+
+#final-container {
     background-color: #000;
     color: white;
-    width: 100%; 
+    width: 100%;
     padding: 6% 0 1%;
 }
 
-.content{
+.content {
     padding: 2% 3%;
 }
 
@@ -250,11 +262,11 @@ input[type="emails"] {
     padding-left: 30px;
 }
 
-::placeholder{
+::placeholder {
     color: rgb(194, 159, 159);
 }
 
-.common-input{
+.common-input {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -265,94 +277,97 @@ input[type="emails"] {
 
 input[type="submit"] {
     margin-left: -210px;
-    
     height: 44px;
     width: 200px;
     background-color: tomato;
     color: #fff;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: #bb0f54;
     transition: ease-in-out 1000ms;
 }
 
-hr{
+hr {
     margin-top: 100px;
     size: 0;
     border-top: 0.1px solid rgb(141, 136, 136);
 }
 
-.copyright a, p{
+.copyright a,
+p {
     color: rgb(151, 135, 135);
 }
-.copyright a{
+
+.copyright a {
     margin-left: -0.01px;
     padding-left: 5px;
 }
 
+
 /*////////////////////////////////////////////// MEDIA Query Section ////////////////////////////////////////*/
 
-@media (max-width: 1010px)
-{
-    h1{
+@media (max-width: 1010px) {
+    h1 {
         font-size: 2rem;
     }
-    h3,span{
+    h3,
+    span {
         font-size: 0.9rem;
     }
-    .media-title{
+    .media-title {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .media-title h1{
-        font-size: 2.5rem;    
+    .media-title h1 {
+        font-size: 2.5rem;
     }
-    .registration-form{
-       margin: 0 auto;
+    .registration-form {
+        margin: 0 auto;
     }
-    .reg-image{
+    .reg-image {
         width: 400px;
-    }    
+    }
 }
 
-@media only screen and (max-width: 700px)
-{
-    .media-title{
+@media only screen and (max-width: 700px) {
+    .media-title {
         margin-top: -100px;
     }
-    .media-title h1{
-        font-size: 2.5rem;    
+    .media-title h1 {
+        font-size: 2.5rem;
     }
-    .media-title img{
+    .media-title img {
         width: 250px;
     }
-    .registration-form{
+    .registration-form {
         max-width: 70%;
         margin: 0 auto;
     }
-    .reg-image{
+    .reg-image {
         display: none;
     }
-    .media-form{
+    .media-form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: -50px ;
+        margin-bottom: -50px;
     }
-    .media-input{
+    .media-input {
         max-width: 180px;
         max-height: 30px;
         font-size: 0.9rem;
     }
     .media-submit {
-    font-size: 0.9rem;
-    margin: 10px -210px 0 0;
-    max-width: 100px;
-    max-height: 30px;
-    }   
-    a, p, span{
+        font-size: 0.9rem;
+        margin: 10px -210px 0 0;
+        max-width: 100px;
+        max-height: 30px;
+    }
+    a,
+    p,
+    span {
         font-size: 0.8rem;
     }
 }
